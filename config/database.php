@@ -30,9 +30,9 @@ if ($is_local) {
     // Live Server / Production Setup
     // ----------------------------------------------------
     define('DB_HOST', 'localhost');
-    define('DB_USER', 'school_erp_user');
-    define('DB_PASS', 'change_this_password');
-    define('DB_NAME', 'school_management');
+    define('DB_USER', 'u447123054_demo');
+    define('DB_PASS', 'Billing_system1');
+    define('DB_NAME', 'u447123054_demo');
 }
 
 function getDBConnection() {

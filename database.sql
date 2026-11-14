@@ -1,9 +1,10 @@
 -- MySQL Database Schema & Demo Seed Data
 -- School Management System (Demo)
--- Generated for XAMPP / Localhost deployment
+-- Select target database (e.g. `u447123054_demo` or `school_management`) in phpMyAdmin before importing.
+-- Or open the app directly in browser after setting config/database.php to auto-create & seed tables.
 
-CREATE DATABASE IF NOT EXISTS `school_management` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE `school_management`;
+-- CREATE DATABASE IF NOT EXISTS `school_management` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+-- USE `school_management`;
 
 -- Drop tables in reverse FK dependency order
 DROP TABLE IF EXISTS `exam_marks`;
